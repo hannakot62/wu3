@@ -1,0 +1,193 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+}
+
+h1 span {
+    font-size: 50px;
+    line-height: 150%;
+}
+.title {
+    color: #fff;
+    font-size: 37px;
+    letter-spacing: 1px;
+    line-height: 132%;
+}
+.header {
+    background: rgb(70, 120, 208);
+    background: linear-gradient(
+        320deg,
+        rgba(70, 120, 208, 1) 0%,
+        rgba(102, 224, 255, 1) 100%,
+        rgba(0, 212, 255, 1) 100%
+    );
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.logo {
+padding-top: 65px;
+padding-bottom: 55px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.wrapper{
+    padding-top: 100px;
+    display: flex;
+}
+.text-block {
+    width: 585px;
+ /* padding-top: 100px;*/
+}
+.text {
+    color: #fff;
+    width: 410px;
+    letter-spacing: 0.4px;
+    line-height: 180%;
+    /*margin-bottom: 30px;*/
+}
+.trip {
+ /*   width: 620px;
+    height: 620px;
+   /* margin-right: -40px;
+    */margin-top: -100px;/*
+    margin-bottom: 140px;*/
+}
+.button {
+    font-family: "Montserrat", sans-serif;
+    background: #e9d30d;
+    display: block;
+    width: 220px;
+    text-align: center;
+    transition: all 0.5s ease;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+.button:hover {
+    background: #6b610b;
+    cursor: pointer;
+    color: #fff;
+}
+.what_waits {
+    background-color: #fff;
+}
+.title_waits {
+    margin: 110px 0px 74px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #201b2d;
+    font-weight: 700;
+}
+.items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.item {
+    text-align: center;
+    width: 295px;
+}
+.item:not(:last-child) {
+   /* margin-right: 120px;*/
+}
+.icon {
+}
+.subtitle {
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 132%;
+    color: #201b2d;
+    font-weight: 700;
+}
+.item_text {
+  /*  margin-left: 2px;*/
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 147%;
+    color: #201b2d;
+    font-weight: 400;
+}
+footer {
+    background-color: rgb(27, 73, 141);
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 179%;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 65px 0px;
+}
+
+.ticket {
+    background-color: rgb(222, 231, 248);
+}
+.form_ticket {
+    display: flex;
+    justify-content: center;
+    padding: 110px 0px 62px 0px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #201b2d;
+    font-weight: 700;
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input {
+    display: flex;
+    min-width: 340px;
+    min-height: 47px;
+    margin-bottom: 18px;
+    padding-left: 24px;
+    font-size: 15px;
+    line-height: 167%;
+    color: #201b2d;
+    font-weight: 400;
+    font-family: "Ubuntu";
+    border: 0.5px solid rgb(184, 175, 175);
+    border-radius: 3px;
+}
+
+.submit_button {
+    min-width: 340px;
+    background: #eedd42;
+    margin-bottom: 100px;
+}
